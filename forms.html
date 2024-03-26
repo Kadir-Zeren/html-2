@@ -67,7 +67,54 @@
         <label for="none">None</label>
         <input type="radio" id="none" name="gender" value="None" checked />
         <br /><br />
+
+        <label for="fav-cars">LUTFEN FAVORİ ARABALARINIZI SEÇİNİZ:</label>
+        <br />
+        <input type="checkbox" name="cars1" id="bmw" value="BMW" />
+        <label for="bmw">BMW</label>
+
+        <input type="checkbox" name="cars2" id="mercedes" value="Mercedes" />
+        <label for="mercedes">Mercedes</label>
+
+        <br /><br />
+        <label for="dob">Dogum Tarihi</label> <br />
+        <input type="date" name="dob" id="dob" min="1990-01-01" />
+
+        <br /><br />
       </section>
+
+      <input type="file" />
+
+      <!-- SELECT -->
+      <section>
+        <select name="tatli" id="tali">
+          <optgroup label="şerbetli tatlilar">
+            <option value="künefe">Künefe</option>
+            <option value="havuç dilimi">H. Dilimi</option>
+          </optgroup>
+
+          <optgroup label="sütlü tatlılar">
+            <option value="sütlaç">Sütlaç</option>
+            <option value="kazandibi">Kazandibi</option>
+          </optgroup>
+        </select>
+      </section>
+
+      <br><br>
+
+      <!-- TEXTAREA -->
+      <section>
+        <label for="yorum">Yorumlarınızı Giriniz:</label>
+        <br />
+        <textarea
+          name="yorum"
+          id="yorum"
+          cols="40"
+          rows="10"
+          style="resize: none"
+          maxlength="100"
+          placeholder="En fazla 100 karakter girilebilir"
+        ></textarea>
 
       <section>
         <input type="submit" value="Kaydet" />
