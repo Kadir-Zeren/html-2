@@ -4,17 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Semantic</title>
+    <style>
+      footer,
+      header {
+        background-color: black;
+        color: white;
+        padding: 30px;
+      }
+
+      nav {
+        background-color: bisque;
+        padding: 10px;
+      }
+    </style>
   </head>
   <body style="text-align: center">
     <header><h1>CLARUSWAY</h1></header>
 
     <nav>
-      <a href="#">Home</a> | <a href="#">Products</a> | <a href="#">About</a> |
+      <a href="#">Home</a> | <a href="#kis">Kis</a> | <a href="#yaz">Yaz</a> |
       <a href="#">Contact</a>
     </nav>
 
     <main>
-      <section>
+      <section id="kis">
         <h3>KIS MANZARALARI</h3>
         <article>
           <p>
@@ -39,8 +52,38 @@
             recusandae ipsam ab quos vel tempore. Quae commodi adipisci sequi?
             Odit, quae.
           </p>
+
+          <figure>
+            <img
+              src="https://cdn.pixabay.com/photo/2014/11/28/01/01/jay-548381_640.jpg"
+              alt="kus"
+            />
+          </figure>
+        </article>
+      </section>
+
+      <section id="yaz">
+        <h3>YAZ MANZARALARI</h3>
+
+        <article>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+            deleniti error. Atque voluptas corporis, magnam laboriosam minus id
+            modi sint nisi obcaecati optio soluta, dolorum molestias similique
+            cum? Praesentium, ea?
+          </p>
+
+          <figure>
+            <img
+              src="https://cdn.pixabay.com/photo/2020/06/21/21/03/field-5326822_640.jpg"
+              alt="yaz"
+            />
+            <figcaption>Sekil 3. Yaz-Bahar</figcaption>
+          </figure>
         </article>
       </section>
     </main>
+
+    <footer>Copyright By Clarusway, 2023</footer>
   </body>
 </html>
